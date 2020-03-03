@@ -1,0 +1,106 @@
+body{
+	background-color: white;
+	color: rgb(30, 30, 30);
+	font-family: 'Merriweather';
+	font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif;
+}
+
+h1{
+	color: red;
+	font-weight: 900;
+	letter-spacing: 0px;
+	font-size: 32px;
+}
+
+h2{
+	color: rgb(100, 100, 100);
+	font-weight: 900;
+	letter-spacing: 0px;
+	font-size: 24px;
+}
+
+h3{
+	color: rgb(100, 100, 100);
+	font-weight: 900;
+	letter-spacing: 0px;
+	font-size: 24px;
+}
+
+a {
+  color: #6B72E1;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+div {
+	background: white;
+	border: 2px none;
+	margin: 20px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.list.inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.fblogo-grey {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.twitterlogo-grey {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.instalogo-grey {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
